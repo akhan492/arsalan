@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+  
+   width:800px;
+   margin: auto;
+   padding: auto;
+   
+}
+h3{
+    text-align: center;
+    font-size: 40pt;
+    font-family: 'Kalam', cursive;
+    animation: cer 5s ease-out infinite;
+    position: relative;
+}
+#h1{
+    background-color:black;
+   margin-top: 5px;
+   color: powderblue;
+
+}
+body{
+   background-image: url("./img/pexels-negative-space-169573.jpg");
+}
+button{
+    color: black !important;
+} 
+.a1{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    
+}
+@keyframes cer {
+    0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+@keyframes cer {
+   
+       0%{
+        color: red;
+       }
+       50%{
+        color: rgb(9, 235, 20);
+       }
+       70%
+       {
+        color: rgb(140, 0, 255);
+       }
+        80% {opacity:0;}
+        100% {opacity:1;}
+}
