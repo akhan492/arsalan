@@ -3,16 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-.box{
+/* .box{
   
    width:800px;
    margin: auto;
    padding: auto;
    
-}
+} */
 h3{
     text-align: center;
-    font-size: 40pt;
+    font-size: 1.5rem;
     font-family: 'Kalam', cursive;
     animation: cer 5s ease-out infinite;
     position: relative;
@@ -56,3 +56,8 @@ button{
         80% {opacity:0;}
         100% {opacity:1;}
 }
+@media(min-width:768px) {
+    h3 {
+     font-size:3.5rem;
+    }
+  }
