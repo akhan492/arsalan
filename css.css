@@ -3,25 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* .box{
-  
-   width:800px;
-   margin: auto;
-   padding: auto;
-   
-} */
+
 h3{
     text-align: center;
     font-size: 1.4rem;
     font-family: 'Kalam', cursive;
     animation: cer 5s ease-out infinite;
-    position: relative;
-}
+    cursor: pointer;
+   }
+  
 #h1{
     background-color:black;
    margin-top: 5px;
    color: powderblue;
-
+   border-radius: 5%;
+   
+   
 }
 body{
    background-image: url("./img/pexels-negative-space-169573.jpg");
@@ -29,18 +26,15 @@ body{
 button{
     color: black !important;
 } 
-.a1{
-    width: 60%;
-    margin: auto;
-    position: relative;
+.head{
+    transition:all 3s;
+    z-index: 1000;
+    position:relative;
     
+   
 }
-@keyframes cer {
-    0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-}
+
+
 @keyframes cer {
    
        0%{
@@ -53,11 +47,18 @@ button{
        {
         color: rgb(140, 0, 255);
        }
-        80% {opacity:0;}
-        100% {opacity:1;}
+        80% {opacity:1;}
+        100% {color: goldenrod;}
 }
 @media(min-width:768px) {
     h3 {
      font-size:3.5rem;
     }
   }
+.head:hover{
+    transform: translate(0px,220px) scale(.9,1);
+   
+}
+.absulate{
+    position:absolute;
+}
