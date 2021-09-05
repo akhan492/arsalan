@@ -24,10 +24,10 @@ body{
    background-image: url("./img/pexels-negative-space-169573.jpg");
 }
 button{
-    color: black !important;
+    color: rgb(241, 10, 10);
 } 
 .head{
-    transition:all 3s;
+    transition:all 5s;
     z-index: 1000;
     position:relative;
     
@@ -56,7 +56,7 @@ button{
     }
   }
 .head:hover{
-    transform: translate(0px,220px) scale(.9,1);
+    transform: translate(0px,220px) scale(.9,1) rotate(360deg);
    
 }
 .absulate{
